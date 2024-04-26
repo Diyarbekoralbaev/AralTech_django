@@ -14,6 +14,8 @@ SECRET_KEY = 'django-insecure-$7=*&#l3s0qr*rr#5*gv)nnu%57%4=!bn0rf#^o8w(xd#g8dd4
 DEBUG = True
 
 ALLOWED_HOSTS = ['araltech.tech', 'www.araltech.tech']
+CSRF_COOKIE_SECURE = True
+CSRF_TRUSTED_ORIGINS = ['araltech.tech', 'www.araltech.tech']
 
 
 # Application definition
