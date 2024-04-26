@@ -31,7 +31,7 @@ INSTALLED_APPS = [
 
     'aral_app',
 
-    'axes',
+    # 'axes',
 ]
 
 MIDDLEWARE = [
@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    'axes.middleware.AxesMiddleware',
+    # 'axes.middleware.AxesMiddleware',
 ]
 
 ROOT_URLCONF = 'AralTech_portfolio.urls'
@@ -77,10 +77,10 @@ DATABASES = {
     }
 }
 
-AUTHENTICATION_BACKENDS = [
-    'axes.backends.AxesStandaloneBackend',
-    'django.contrib.auth.backends.ModelBackend',
-]
+# AUTHENTICATION_BACKENDS = [
+#     'axes.backends.AxesStandaloneBackend',
+#     'django.contrib.auth.backends.ModelBackend',
+# ]
 
 
 # Password validation
