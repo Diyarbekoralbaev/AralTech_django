@@ -15,7 +15,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['araltech.tech', 'www.araltech.tech']
 CSRF_COOKIE_SECURE = True
-CSRF_TRUSTED_ORIGINS = ['araltech.tech', 'www.araltech.tech']
+CSRF_TRUSTED_ORIGINS = ['https://araltech.tech', 'https://www.araltech.tech']
 
 
 # Application definition
