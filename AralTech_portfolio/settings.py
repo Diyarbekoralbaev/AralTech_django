@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$7=*&#l3s0qr*rr#5*gv)nnu%57%4=!bn0rf#^o8w(xd#g8dd4'
+SECRET_KEY = 'e3dd6b4b3bd0a3965832bf3665a1481b06aeb0176f8c887a448ffe7cfed8f657'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -157,3 +157,10 @@ AXES_COOLOFF_TIME = 10  # Number of minutes to lock out the user
 # AXES_ENABLE_ADMIN = True  # Whether to display the admin site
 # AXES_LOCKOUT_URL = ' lockout
 # AXES_RESET_ON_SUCCESS = True  # Attempt to automatically unlock the user based on configuration
+
+
+SECURE_HSTS_SECONDS = 31536000  # 1 year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
