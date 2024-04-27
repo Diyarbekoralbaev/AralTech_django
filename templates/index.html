@@ -37,7 +37,7 @@
                             </iframe>
                         </div>
                         <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGBeht1OSY&#x2F;YlOaEiEDBAMdNy2KxGkUjQ&#x2F;view?utm_content=DAGBeht1OSY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
-                           target="_blank" rel="noopener">AralTech team inroduction</a> by Sharyar Djumanov
+                           target="_blank" rel="noopener">AralTech team inroduction</a> by Diyarbek Oralbaev
 
 
                         <script src="{% static 'js/aboutCanvas.js' %}"></script>
@@ -72,7 +72,7 @@
                             Services
                         </h3>
                         <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Our Services.
                         </p>
                         <div class="line-mf"></div>
                     </div>
@@ -112,7 +112,7 @@
                         <div class="counter-num">
                             <p data-purecounter-start="0" data-purecounter-end="{{counter.works}}"
                                data-purecounter-duration="1" class="counter purecounter"></p>
-                            <span class="counter-text">WORKS COMPLETED</span>
+                            <span class="counter-text">PROJECTS COMPLETED</span>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                             Portfolio
                         </h3>
                         <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Our projects and wons
                         </p>
                         <div class="line-mf"></div>
                     </div>
@@ -203,46 +203,50 @@
         </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url('{% static 'img/overlay-bg.jpg'%})">
-        <div class="overlay-mf"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="swiper-wrapper">
-
-                            {% for item in team %}
-
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <div class="author-test">
-                                        <img src="{{ item.image.url }}" width="300" height="300" alt=""
-                                             class="rounded-circle b-shadow-a">
-                                        <span class="author">{{ item.name }}</span>
-                                    </div>
-                                    <div class="content-test">
-                                        <p class="description lead">
-                                            {{ item.description }}
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!-- End testimonial item -->
-                            {% endfor %}
-
-
+        <!-- ======= Testimonials Section ======= -->
+        <div class="testimonials paralax-mf bg-image" style="background-image: url('{% static 'img/overlay-bg.jpg'%})">
+            <div class="overlay-mf"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title-box text-center">
+                            <h2 class="title-a">
+                                Our Team Members
+                            </h2>
                         </div>
-                        <div class="swiper-pagination"></div>
+
+                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="swiper-wrapper">
+                                {% for item in team %}
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="author-test">
+                                            <img src="{{ item.image.url }}" width="300" height="300" alt=""
+                                                 class="rounded-circle b-shadow-a">
+                                            <span class="author">{{ item.name }}</span>
+                                        </div>
+                                        <div class="content-test">
+                                            <p class="description lead">
+                                                {{ item.description }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div><!-- End testimonial item -->
+                                {% endfor %}
+
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+
+                    </div> -->
                     </div>
-
-                    <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-
-                </div> -->
                 </div>
             </div>
-        </div>
-    </div><!-- End Testimonials Section -->
+        </div><!-- End Testimonials Section -->
 
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog-mf sect-pt4 route">
@@ -254,7 +258,7 @@
                             Blog
                         </h3>
                         <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            For those who are interested in our life
                         </p>
                         <div class="line-mf"></div>
                     </div>
@@ -304,7 +308,8 @@
     </section><!-- End Blog Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url('{% static 'img/overlay-bg.jpg' %}')">
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+             style="background-image: url('{% static 'img/overlay-bg.jpg' %}')">
         <div class="overlay-mf"></div>
         <div class="container">
             <div class="row">
@@ -319,7 +324,8 @@
                                         </h5>
                                     </div>
                                     <div>
-                                        <form action="{% url 'add_contact' %}" method="post" role="form" class="php-email-form">
+                                        <form action="{% url 'add_contact' %}" method="post" role="form"
+                                              class="php-email-form">
                                             {% csrf_token %}
                                             <div class="row">
                                                 <div class="col-md-12 mb-3">
@@ -365,16 +371,14 @@
                                 <div class="col-md-6">
                                     <div class="title-box-2 pt-4 pt-md-0">
                                         <h5 class="title-left">
-                                            Get in Touch
+                                            Reach Out
                                         </h5>
                                     </div>
                                     <div class="more-info">
                                         <p class="lead">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum
-                                            dolorem soluta quidem
-                                            expedita aperiam aliquid at.
-                                            Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                                            mollitia inventore?
+                                            Whether you have a question, a suggestion, or just want to say hi, we'd love
+                                            to hear from you.
+                                            Feel free to drop us a line anytime.
                                         </p>
                                         <ul class="list-ico">
                                             <li><span class="bi bi-geo-alt"></span> {{ about.address }}</li>
