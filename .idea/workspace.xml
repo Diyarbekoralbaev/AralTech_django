@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2d25242-c363-4982-ae9b-a5b3a0cad465" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AralTech_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AralTech_portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AralTech_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AralTech_portfolio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.pro.templateLanguages.PyTemplateLanguageModulesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -82,7 +80,11 @@
       <workItem from="1714088147026" duration="47000" />
       <workItem from="1714088204221" duration="762000" />
       <workItem from="1714088989615" duration="36054000" />
-      <workItem from="1714235605558" duration="4308000" />
+      <workItem from="1714235605558" duration="5537000" />
+      <workItem from="1714294373978" duration="5274000" />
+      <workItem from="1714327731970" duration="2321000" />
+      <workItem from="1714424040218" duration="37000" />
+      <workItem from="1714450269179" duration="63000" />
     </task>
     <servers />
   </component>

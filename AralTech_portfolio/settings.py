@@ -11,9 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'e3dd6b4b3bd0a3965832bf3665a1481b06aeb0176f8c887a448ffe7cfed8f657'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['araltech.tech', 'www.araltech.tech']
+ALLOWED_HOSTS = []
 CSRF_COOKIE_SECURE = True
 CSRF_TRUSTED_ORIGINS = ['https://araltech.tech', 'https://www.araltech.tech']
 
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
 
